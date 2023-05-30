@@ -13,7 +13,7 @@ Wreckfest Egg for Pterodactyl Panel version 1.11 or newer.
 ## Known Issues:
 * ``[WARNING]: IsSubsystemNative, not defined subsystem, fallback to wrapper 'User|NetworkingSockets|Utils|NetworkingUtils'``,
   * You can safely ignore this as it should still function.
-* Server does not appear on the steam page. 
+* Server does not appear on the steam browser. 
   * This is fine. It is an issue with Wreckfest in general that THQ needs to fix.
 * ``_XSERVTransmkdir: ERROR: euid != 0,directory /tmp/.X11-unix will not be created.``
   * This will occur with wine. No way to fix this with Dedicated Servers that does not have a graphics driver installed. Should work as is.
