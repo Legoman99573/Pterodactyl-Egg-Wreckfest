@@ -6,7 +6,7 @@
     },
     "exported_at": "2023-05-30T02:32:38-05:00",
     "name": "Wreckfest",
-    "author": "pterodactyl@lnb.dev",
+    "author": "legoman@ugandavrc.com",
     "description": "Wreckfest is a demolition derby themed racing game with soft-body damage modeling, sophisticated driving dynamics and in-depth vehicle upgrading, featuring both demolition derbies and more traditional track races. It\u2019s all about fun, breakneck racing and over-the-top crashes.",
     "features": [
         "steam_disk_space"
@@ -16,7 +16,7 @@
         "Wine Staging": "ghcr.io\/parkervcp\/yolks:wine_staging"
     },
     "file_denylist": [],
-    "startup": "xvfb-run --auto-servernum wine Wreckfest_x64.exe -s server_config={{CONFIG_PATH}} -server_set game_port={{SERVER_PORT}} query_port={{QUERY_PORT}} steam_port={{STEAM_PORT}}",
+    "startup": "xvfb-run --auto-servernum wine Wreckfest.exe -s server_config={{CONFIG_PATH}} -server_set game_port={{SERVER_PORT}} query_port={{QUERY_PORT}} steam_port={{STEAM_PORT}}",
     "config": {
         "files": "{}",
         "startup": "{\r\n    \"done\": \"Server connected to Steam.\"\r\n}",
