@@ -6,8 +6,8 @@ Wreckfest Egg for Pterodactyl Panel version 1.11 or newer.
 | Port    | Default       |
 |---------|---------------|
 | Game    | 33540         |
-| Query   | 27015         |
-| Steam   | 27025         |
+| Query   | 27016         |
+| Steam   | 27015         |
  
  
 ## Known Issues:
